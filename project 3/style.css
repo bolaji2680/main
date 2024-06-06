@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.trans {
+    height: 600px;
+    background-image: url(back.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+}
+header {
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(83, 82, 82); */
+    background-color: transparent;
+    /* border: 1px solid grey; */
+    display: flex;
+    gap: 500px;
+    /* margin-bottom: 40px;  */
+}
+
+header .first {
+    border: 1px solid rgb(83, 82, 82) ;
+    height: 67px;
+    width: 70px;
+    background-image: url(sett.jpg); 
+    background-size: contain;
+}
+
+.second p {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 28px;
+}
+
+
+div.forall {
+ 
+   height: 520px;
+   /* background-image: url(back.jpg);  */
+   /* background-size: cover;  */
+   /* background-repeat: no-repeat;  */
+   /* background-blend-mode: darken;  */
+   padding-left: 150px;
+}
+
+.forall h1 {
+    font-family: 'Silika', sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.forall h2 {
+    font-family: 'Silika', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+.red {
+    font-family: 'Silika', sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    color: rgb(152, 120, 40);
+    margin-bottom: 20px;
+}
+/* button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: inherit;
+    border: none;   
+} */
+
+textarea {
+    display: block;
+    padding: 5px;
+    width: 500px; 
+    height: 70px;
+    margin: 10px 0;
+    border: 1px solid rgb(83, 82, 82);
+    border-radius: 10px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+.inpass{
+    display: block;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+#ddd{
+    font-size: 5px;
+}
+.chk {
+    display: flex; 
+    justify-content:left;
+    align-items: center; 
+    gap: 13px;  
+}
+/* ::placeholder {
+    position: absolute;
+    top:0 ;
+} */
+
+.forall button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(152, 120, 40);
+    color: white;
+    font-family: 'Silika', sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+/* @media (max-width: 900px) {
+    .textarea {
+        width: 300px;
+    }
+}
+
+@media (min-width: 300px) {
+    .textarea {
+        width: 70px;
+    }
+} */
